@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(19, 19, 19);
+}
+
+a {
+    color: white;
+}
+
+.icon a {
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.img {
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: end;
+    opacity: 0.7;
+}
+
+.icon {
+    position: relative;
+    bottom: 55px;
+    color: white;
+}
+
+#ficture {
+    border-radius: 50%;
+    position: relative;
+    bottom: 65px;
+    box-shadow: 1px 7px 26px 4px rgba(0, 0, 0, 0.83);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile {
+    text-align: center;
+}
+
+.layanan {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
+
+.about,
+.servies,
+.myskill {
+    background-color: rgb(41, 39, 39);
+    width: 300px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 1px 7px 26px 4px rgba(0, 0, 0, 0.83);
+    border: 1px solid rgba(0, 0, 0, 0.479);
+}
+
+.ucapan {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: white;
+}
+
+.img a {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+a:hover {
+    color: rgba(42, 221, 221, 0.574);
+}
+
+.about:hover {
+    background-color: rgba(31, 30, 30, 0.583);
+}
+
+.servies:hover {
+    background-color: rgba(31, 30, 30, 0.583);
+}
+
+.myskill:hover {
+    background-color: rgba(31, 30, 30, 0.583);
+}
+
+@media(max-width:500px) {
+    .layanan {
+        display: block;
+    }
+
+    .about,
+    .servies,
+    .myskill {
+        margin-top: 15px;
+    }
+
+    .ucapan {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    p {
+        margin-top: 20px;
+
+    }
+}
